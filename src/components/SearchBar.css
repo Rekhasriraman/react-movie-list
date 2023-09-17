@@ -1,0 +1,31 @@
+.search-bar-container {
+    position: relative;
+    width: 100%;
+        margin-bottom: 50px;
+        margin-top: 0px;
+}
+
+.search-input-container {
+    position: relative;
+    width: 50%;
+}
+
+.search-input {
+    width: 50%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: black;
+    color: white;
+    
+}
+
+.search-icon {
+    position: absolute;
+    right: 300px;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    color: #ccc;
+}
